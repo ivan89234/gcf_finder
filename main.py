@@ -6,7 +6,6 @@ def gcf(first : int, second : int):
     except ValueError:
         return "0 is not allowed"
 #Be careful with high numbers other wise it may crash
-#if one of the parameters is 0 it will raise ValueError
 print(gcf(13, 17))
 print(gcf(0, 12))
 print(gcf(48, 186))
